@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.30.0",
-  "hash": "c6c21c54500ccca9635c",
-  "time": 42,
-  "builtAt": 1557106047982,
+  "hash": "447100596e6f69fac872",
+  "time": 47,
+  "builtAt": 1557108624728,
   "publicPath": "",
   "outputPath": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\dist",
   "assetsByChunkName": {
     "main": [
       "main.js",
-      "main.0bd1c904643ad0a6fbd1.hot-update.js"
+      "main.2c5df26f2e55a3a60ae3.hot-update.js"
     ],
     "style": "style.js"
   },
@@ -27,7 +27,7 @@
       "emitted": true
     },
     {
-      "name": "0bd1c904643ad0a6fbd1.hot-update.json",
+      "name": "2c5df26f2e55a3a60ae3.hot-update.json",
       "size": 46,
       "chunks": [
       ],
@@ -36,8 +36,8 @@
       "emitted": true
     },
     {
-      "name": "main.0bd1c904643ad0a6fbd1.hot-update.js",
-      "size": 1560,
+      "name": "main.2c5df26f2e55a3a60ae3.hot-update.js",
+      "size": 2114,
       "chunks": [
         "main"
       ],
@@ -48,7 +48,7 @@
     },
     {
       "name": "main.js",
-      "size": 3235546,
+      "size": 3242900,
       "chunks": [
         "main"
       ],
@@ -59,7 +59,7 @@
     },
     {
       "name": "style.js",
-      "size": 975003,
+      "size": 976698,
       "chunks": [
         "style"
       ],
@@ -77,7 +77,7 @@
       ],
       "assets": [
         "main.js",
-        "main.0bd1c904643ad0a6fbd1.hot-update.js"
+        "main.2c5df26f2e55a3a60ae3.hot-update.js"
       ],
       "children": {
       },
@@ -104,7 +104,7 @@
       ],
       "assets": [
         "main.js",
-        "main.0bd1c904643ad0a6fbd1.hot-update.js"
+        "main.2c5df26f2e55a3a60ae3.hot-update.js"
       ],
       "children": {
       },
@@ -130,15 +130,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 1224950,
+      "size": 1227153,
       "names": [
         "main"
       ],
       "files": [
         "main.js",
-        "main.0bd1c904643ad0a6fbd1.hot-update.js"
+        "main.2c5df26f2e55a3a60ae3.hot-update.js"
       ],
-      "hash": "f0a64f9b26469868ecc7",
+      "hash": "668708c77dc4b31e9119",
       "siblings": [
       ],
       "parents": [
@@ -153,7 +153,7 @@
           "identifier": "multi C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\webpack-dev-server\\client\\index.js?http://localhost:9000 C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\webpack\\hot\\dev-server.js ./src/scripts/index.js",
           "name": "multi (webpack)-dev-server/client?http://localhost:9000 (webpack)/hot/dev-server.js ./src/scripts/index.js",
           "index": 0,
-          "index2": 39,
+          "index2": 40,
           "size": 52,
           "built": false,
           "optional": false,
@@ -1285,7 +1285,7 @@
               "moduleName": "./src/scripts/components/App.jsx",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-26"
+              "loc": "10:0-51"
             },
             {
               "moduleId": "./src/scripts/components/App.jsx",
@@ -1294,7 +1294,97 @@
               "moduleName": "./src/scripts/components/App.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
+              "loc": "23:18-26"
+            },
+            {
+              "moduleId": "./src/scripts/components/App.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "module": "./src/scripts/components/App.jsx",
+              "moduleName": "./src/scripts/components/App.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "28:19-27"
+            },
+            {
+              "moduleId": "./src/scripts/components/App.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "module": "./src/scripts/components/App.jsx",
+              "moduleName": "./src/scripts/components/App.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "33:2-11"
+            },
+            {
+              "moduleId": "./src/scripts/components/App.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "module": "./src/scripts/components/App.jsx",
+              "moduleName": "./src/scripts/components/App.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "36:9-14"
+            },
+            {
+              "moduleId": "./src/scripts/components/App.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "module": "./src/scripts/components/App.jsx",
+              "moduleName": "./src/scripts/components/App.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "36:29-34"
+            },
+            {
+              "moduleId": "./src/scripts/components/App.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "module": "./src/scripts/components/App.jsx",
+              "moduleName": "./src/scripts/components/App.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "36:51-56"
+            },
+            {
+              "moduleId": "./src/scripts/components/App.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "module": "./src/scripts/components/App.jsx",
+              "moduleName": "./src/scripts/components/App.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "39:6-11"
+            },
+            {
+              "moduleId": "./src/scripts/components/App.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "module": "./src/scripts/components/App.jsx",
+              "moduleName": "./src/scripts/components/App.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "41:48-53"
+            },
+            {
+              "moduleId": "./src/scripts/components/Header.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\Header.jsx",
+              "module": "./src/scripts/components/Header.jsx",
+              "moduleName": "./src/scripts/components/Header.jsx",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-26"
+            },
+            {
+              "moduleId": "./src/scripts/components/Header.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\Header.jsx",
+              "module": "./src/scripts/components/Header.jsx",
+              "moduleName": "./src/scripts/components/Header.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "react",
               "loc": "4:9-14"
+            },
+            {
+              "moduleId": "./src/scripts/components/Header.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\Header.jsx",
+              "module": "./src/scripts/components/Header.jsx",
+              "moduleName": "./src/scripts/components/Header.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "6:5-10"
             },
             {
               "moduleId": "./src/scripts/index.js",
@@ -2369,10 +2459,10 @@
           "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
           "name": "./src/scripts/components/App.jsx",
           "index": 39,
-          "index2": 37,
-          "size": 135,
+          "index2": 38,
+          "size": 2126,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -2401,7 +2491,7 @@
               "moduleName": "./src/scripts/index.js",
               "type": "harmony side effect evaluation",
               "userRequest": "./components/App",
-              "loc": "3:0-35"
+              "loc": "3:0-39"
             },
             {
               "moduleId": "./src/scripts/index.js",
@@ -2414,22 +2504,85 @@
             }
           ],
           "providedExports": [
-            "default"
+            "fetchDataFromApi",
+            "App"
           ],
           "optimizationBailout": [
           ],
           "depth": 2,
-          "source": "import React from 'react';\n\nvar App = function App() {\n  return React.createElement(\"h1\", null, \"Hello World\");\n};\n\nexport default App;"
+          "source": "function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n/* eslint-disable no-mixed-spaces-and-tabs */\nimport React, { useState, useEffect } from 'react';\nimport Header from './Header';\nvar api_key = '88a0f517b9c8cbdb65627750ba696fd8';\nvar trendingMoviesUrl = \"https://api.themoviedb.org/3/trending/all/day?api_key=\".concat(api_key);\nexport var fetchDataFromApi = function fetchDataFromApi(url, setMoviesArr, setLoading) {\n  fetch(url).then(function (response) {\n    return response.json();\n  }).then(function (jsonResponse) {\n    setMoviesArr(jsonResponse.results);\n    setLoading(false);\n  });\n};\nexport var App = function App() {\n  var _useState = useState(true),\n      _useState2 = _slicedToArray(_useState, 2),\n      loading = _useState2[0],\n      setLoading = _useState2[1];\n\n  var _useState3 = useState([]),\n      _useState4 = _slicedToArray(_useState3, 2),\n      moviesArr = _useState4[0],\n      setMoviesArr = _useState4[1];\n\n  useEffect(function () {\n    fetchDataFromApi(trendingMoviesUrl, setMoviesArr, setLoading);\n  }, []);\n  return React.createElement(React.Fragment, null, React.createElement(Header, {\n    text: \"Movies SA\",\n    user: 'Jean Rauwers'\n  }), React.createElement(\"div\", {\n    className: \"search-title\"\n  }, \"Please search for your favorite movie!\"), React.createElement(\"div\", {\n    className: \"movies-grid\"\n  }), moviesArr ? moviesArr.map(function (movie) {\n    // eslint-disable-next-line no-console\n    console.log(movie);\n  }) : '');\n};"
+        },
+        {
+          "id": "./src/scripts/components/Header.jsx",
+          "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\Header.jsx",
+          "name": "./src/scripts/components/Header.jsx",
+          "index": 40,
+          "index2": 37,
+          "size": 208,
+          "cacheable": true,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "issuerId": "./src/scripts/components/App.jsx",
+          "issuerName": "./src/scripts/components/App.jsx",
+          "issuerPath": [
+            {
+              "id": "./src/scripts/index.js",
+              "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\index.js",
+              "name": "./src/scripts/index.js"
+            },
+            {
+              "id": "./src/scripts/components/App.jsx",
+              "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "name": "./src/scripts/components/App.jsx"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": "./src/scripts/components/App.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "module": "./src/scripts/components/App.jsx",
+              "moduleName": "./src/scripts/components/App.jsx",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./Header",
+              "loc": "11:0-30"
+            },
+            {
+              "moduleId": "./src/scripts/components/App.jsx",
+              "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+              "module": "./src/scripts/components/App.jsx",
+              "moduleName": "./src/scripts/components/App.jsx",
+              "type": "harmony import specifier",
+              "userRequest": "./Header",
+              "loc": "36:71-77"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 3,
+          "source": "import React from 'react';\n\nvar Header = function Header(props) {\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h2\", null, props.text));\n};\n\nexport default Header;"
         },
         {
           "id": "./src/scripts/index.js",
           "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\index.js",
           "name": "./src/scripts/index.js",
           "index": 27,
-          "index2": 38,
-          "size": 178,
+          "index2": 39,
+          "size": 182,
           "cacheable": true,
-          "built": false,
+          "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -2469,7 +2622,7 @@
           "optimizationBailout": [
           ],
           "depth": 1,
-          "source": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport App from './components/App';\nReactDOM.render(React.createElement(App, null), document.getElementById('main'));"
+          "source": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport { App } from './components/App';\nReactDOM.render(React.createElement(App, null), document.getElementById('main'));"
         }
       ],
       "filteredModules": 0,
@@ -2490,14 +2643,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 349680,
+      "size": 350300,
       "names": [
         "style"
       ],
       "files": [
         "style.js"
       ],
-      "hash": "cf48d2a52451fb63a6bf",
+      "hash": "f366ca046482137ae9bd",
       "siblings": [
       ],
       "parents": [
@@ -2511,8 +2664,8 @@
           "id": 1,
           "identifier": "multi C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\webpack-dev-server\\client\\index.js?http://localhost:9000 C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\webpack\\hot\\dev-server.js ./src/scripts/scss/index.scss",
           "name": "multi (webpack)-dev-server/client?http://localhost:9000 (webpack)/hot/dev-server.js ./src/scripts/scss/index.scss",
-          "index": 40,
-          "index2": 45,
+          "index": 41,
+          "index2": 46,
           "size": 52,
           "built": false,
           "optional": false,
@@ -2661,9 +2814,9 @@
           "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./src/scripts/scss/index.scss",
           "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\css-loader\\dist\\cjs.js??ref--4-1!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\postcss-loader\\src\\index.js??ref--4-2!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\sass-loader\\lib\\loader.js??ref--4-3!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\scss\\index.scss",
           "name": "./node_modules/css-loader/dist/cjs.js??ref--4-1!./node_modules/postcss-loader/src??ref--4-2!./node_modules/sass-loader/lib/loader.js??ref--4-3!./src/scripts/scss/index.scss",
-          "index": 42,
-          "index2": 41,
-          "size": 668,
+          "index": 43,
+          "index2": 42,
+          "size": 1288,
           "cacheable": true,
           "built": false,
           "optional": false,
@@ -2719,14 +2872,14 @@
           "optimizationBailout": [
           ],
           "depth": 2,
-          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \"body{font-family:Courier New,Courier,monospace;width:100%;height:100%;margin:0;padding:0;box-sizing:border-box}\", \"\",{\"version\":3,\"sources\":[\"C:\\\\Users\\\\rauwej\\\\Desktop\\\\movie-test\\\\movies-sa/src\\\\scripts\\\\scss\\\\index.scss\"],\"names\":[],\"mappings\":\"AAAA,KACI,yCAA6C,CAC7C,UAAW,CACX,WAAY,CACZ,QAAW,CACX,SAAY,CACZ,qBAAsB\",\"file\":\"index.scss\",\"sourcesContent\":[\"body {\\n    font-family:'Courier New', Courier, monospace;\\n    width: 100%;\\n    height: 100%;\\n    margin: 0px;\\n    padding: 0px;\\n    box-sizing: border-box;\\n  }\\n\"]}]);\n\n"
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \"body{font-family:Courier New,Courier,monospace;width:100%;height:100%;margin:0;padding:0;box-sizing:border-box}.header{background-color:#353c41;height:70px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:calc(10px + 2vmin);color:#fff;padding:20px}\", \"\",{\"version\":3,\"sources\":[\"C:\\\\Users\\\\rauwej\\\\Desktop\\\\movie-test\\\\movies-sa/src\\\\scripts\\\\scss\\\\_layout.scss\",\"C:\\\\Users\\\\rauwej\\\\Desktop\\\\movie-test\\\\movies-sa/src\\\\scripts\\\\scss\\\\_header.scss\"],\"names\":[],\"mappings\":\"AAAA,KACI,yCAA6C,CAC7C,UAAW,CACX,WAAY,CACZ,QAAW,CACX,SAAY,CACZ,qBAAsB,CCN1B,QACI,wBAAwB,CACxB,WAAY,CACZ,YAAa,CACb,qBAAsB,CACtB,kBAAmB,CACnB,sBAAuB,CACvB,4BAA6B,CAC7B,UAAY,CACZ,YAAa\",\"file\":\"index.scss\",\"sourcesContent\":[\"body {\\n    font-family:'Courier New', Courier, monospace;\\n    width: 100%;\\n    height: 100%;\\n    margin: 0px;\\n    padding: 0px;\\n    box-sizing: border-box;\\n}\\n\",\".header {\\n    background-color:#353c41;\\n    height: 70px;\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    justify-content: center;\\n    font-size: calc(10px + 2vmin);\\n    color: white;\\n    padding: 20px;\\n  }\\n\"]}]);\n\n"
         },
         {
           "id": "./node_modules/css-loader/dist/runtime/api.js",
           "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\css-loader\\dist\\runtime\\api.js",
           "name": "./node_modules/css-loader/dist/runtime/api.js",
-          "index": 43,
-          "index2": 40,
+          "index": 44,
+          "index2": 41,
           "size": 2406,
           "cacheable": true,
           "built": false,
@@ -3478,8 +3631,8 @@
           "id": "./node_modules/style-loader/lib/addStyles.js",
           "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\style-loader\\lib\\addStyles.js",
           "name": "./node_modules/style-loader/lib/addStyles.js",
-          "index": 44,
-          "index2": 43,
+          "index": 45,
+          "index2": 44,
           "size": 10399,
           "cacheable": true,
           "built": false,
@@ -3524,8 +3677,8 @@
           "id": "./node_modules/style-loader/lib/urls.js",
           "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\style-loader\\lib\\urls.js",
           "name": "./node_modules/style-loader/lib/urls.js",
-          "index": 45,
-          "index2": 42,
+          "index": 46,
+          "index2": 43,
           "size": 3013,
           "cacheable": true,
           "built": false,
@@ -4275,8 +4428,8 @@
           "id": "./src/scripts/scss/index.scss",
           "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\style-loader\\index.js??ref--4-0!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\css-loader\\dist\\cjs.js??ref--4-1!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\postcss-loader\\src\\index.js??ref--4-2!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\sass-loader\\lib\\loader.js??ref--4-3!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\scss\\index.scss",
           "name": "./src/scripts/scss/index.scss",
-          "index": 41,
-          "index2": 44,
+          "index": 42,
+          "index2": 45,
           "size": 1509,
           "cacheable": true,
           "built": false,
@@ -4341,7 +4494,7 @@
       "identifier": "multi C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\webpack-dev-server\\client\\index.js?http://localhost:9000 C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\webpack\\hot\\dev-server.js ./src/scripts/index.js",
       "name": "multi (webpack)-dev-server/client?http://localhost:9000 (webpack)/hot/dev-server.js ./src/scripts/index.js",
       "index": 0,
-      "index2": 39,
+      "index2": 40,
       "size": 52,
       "built": false,
       "optional": false,
@@ -4376,8 +4529,8 @@
       "id": 1,
       "identifier": "multi C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\webpack-dev-server\\client\\index.js?http://localhost:9000 C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\webpack\\hot\\dev-server.js ./src/scripts/scss/index.scss",
       "name": "multi (webpack)-dev-server/client?http://localhost:9000 (webpack)/hot/dev-server.js ./src/scripts/scss/index.scss",
-      "index": 40,
-      "index2": 45,
+      "index": 41,
+      "index2": 46,
       "size": 52,
       "built": false,
       "optional": false,
@@ -4526,9 +4679,9 @@
       "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./src/scripts/scss/index.scss",
       "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\css-loader\\dist\\cjs.js??ref--4-1!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\postcss-loader\\src\\index.js??ref--4-2!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\sass-loader\\lib\\loader.js??ref--4-3!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\scss\\index.scss",
       "name": "./node_modules/css-loader/dist/cjs.js??ref--4-1!./node_modules/postcss-loader/src??ref--4-2!./node_modules/sass-loader/lib/loader.js??ref--4-3!./src/scripts/scss/index.scss",
-      "index": 42,
-      "index2": 41,
-      "size": 668,
+      "index": 43,
+      "index2": 42,
+      "size": 1288,
       "cacheable": true,
       "built": false,
       "optional": false,
@@ -4584,14 +4737,14 @@
       "optimizationBailout": [
       ],
       "depth": 2,
-      "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \"body{font-family:Courier New,Courier,monospace;width:100%;height:100%;margin:0;padding:0;box-sizing:border-box}\", \"\",{\"version\":3,\"sources\":[\"C:\\\\Users\\\\rauwej\\\\Desktop\\\\movie-test\\\\movies-sa/src\\\\scripts\\\\scss\\\\index.scss\"],\"names\":[],\"mappings\":\"AAAA,KACI,yCAA6C,CAC7C,UAAW,CACX,WAAY,CACZ,QAAW,CACX,SAAY,CACZ,qBAAsB\",\"file\":\"index.scss\",\"sourcesContent\":[\"body {\\n    font-family:'Courier New', Courier, monospace;\\n    width: 100%;\\n    height: 100%;\\n    margin: 0px;\\n    padding: 0px;\\n    box-sizing: border-box;\\n  }\\n\"]}]);\n\n"
+      "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.id, \"body{font-family:Courier New,Courier,monospace;width:100%;height:100%;margin:0;padding:0;box-sizing:border-box}.header{background-color:#353c41;height:70px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:calc(10px + 2vmin);color:#fff;padding:20px}\", \"\",{\"version\":3,\"sources\":[\"C:\\\\Users\\\\rauwej\\\\Desktop\\\\movie-test\\\\movies-sa/src\\\\scripts\\\\scss\\\\_layout.scss\",\"C:\\\\Users\\\\rauwej\\\\Desktop\\\\movie-test\\\\movies-sa/src\\\\scripts\\\\scss\\\\_header.scss\"],\"names\":[],\"mappings\":\"AAAA,KACI,yCAA6C,CAC7C,UAAW,CACX,WAAY,CACZ,QAAW,CACX,SAAY,CACZ,qBAAsB,CCN1B,QACI,wBAAwB,CACxB,WAAY,CACZ,YAAa,CACb,qBAAsB,CACtB,kBAAmB,CACnB,sBAAuB,CACvB,4BAA6B,CAC7B,UAAY,CACZ,YAAa\",\"file\":\"index.scss\",\"sourcesContent\":[\"body {\\n    font-family:'Courier New', Courier, monospace;\\n    width: 100%;\\n    height: 100%;\\n    margin: 0px;\\n    padding: 0px;\\n    box-sizing: border-box;\\n}\\n\",\".header {\\n    background-color:#353c41;\\n    height: 70px;\\n    display: flex;\\n    flex-direction: column;\\n    align-items: center;\\n    justify-content: center;\\n    font-size: calc(10px + 2vmin);\\n    color: white;\\n    padding: 20px;\\n  }\\n\"]}]);\n\n"
     },
     {
       "id": "./node_modules/css-loader/dist/runtime/api.js",
       "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\css-loader\\dist\\runtime\\api.js",
       "name": "./node_modules/css-loader/dist/runtime/api.js",
-      "index": 43,
-      "index2": 40,
+      "index": 44,
+      "index2": 41,
       "size": 2406,
       "cacheable": true,
       "built": false,
@@ -5624,7 +5777,7 @@
           "moduleName": "./src/scripts/components/App.jsx",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-26"
+          "loc": "10:0-51"
         },
         {
           "moduleId": "./src/scripts/components/App.jsx",
@@ -5633,7 +5786,97 @@
           "moduleName": "./src/scripts/components/App.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
+          "loc": "23:18-26"
+        },
+        {
+          "moduleId": "./src/scripts/components/App.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "module": "./src/scripts/components/App.jsx",
+          "moduleName": "./src/scripts/components/App.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "28:19-27"
+        },
+        {
+          "moduleId": "./src/scripts/components/App.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "module": "./src/scripts/components/App.jsx",
+          "moduleName": "./src/scripts/components/App.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "33:2-11"
+        },
+        {
+          "moduleId": "./src/scripts/components/App.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "module": "./src/scripts/components/App.jsx",
+          "moduleName": "./src/scripts/components/App.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "36:9-14"
+        },
+        {
+          "moduleId": "./src/scripts/components/App.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "module": "./src/scripts/components/App.jsx",
+          "moduleName": "./src/scripts/components/App.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "36:29-34"
+        },
+        {
+          "moduleId": "./src/scripts/components/App.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "module": "./src/scripts/components/App.jsx",
+          "moduleName": "./src/scripts/components/App.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "36:51-56"
+        },
+        {
+          "moduleId": "./src/scripts/components/App.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "module": "./src/scripts/components/App.jsx",
+          "moduleName": "./src/scripts/components/App.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "39:6-11"
+        },
+        {
+          "moduleId": "./src/scripts/components/App.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "module": "./src/scripts/components/App.jsx",
+          "moduleName": "./src/scripts/components/App.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "41:48-53"
+        },
+        {
+          "moduleId": "./src/scripts/components/Header.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\Header.jsx",
+          "module": "./src/scripts/components/Header.jsx",
+          "moduleName": "./src/scripts/components/Header.jsx",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-26"
+        },
+        {
+          "moduleId": "./src/scripts/components/Header.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\Header.jsx",
+          "module": "./src/scripts/components/Header.jsx",
+          "moduleName": "./src/scripts/components/Header.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "react",
           "loc": "4:9-14"
+        },
+        {
+          "moduleId": "./src/scripts/components/Header.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\Header.jsx",
+          "module": "./src/scripts/components/Header.jsx",
+          "moduleName": "./src/scripts/components/Header.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "6:5-10"
         },
         {
           "moduleId": "./src/scripts/index.js",
@@ -6007,8 +6250,8 @@
       "id": "./node_modules/style-loader/lib/addStyles.js",
       "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\style-loader\\lib\\addStyles.js",
       "name": "./node_modules/style-loader/lib/addStyles.js",
-      "index": 44,
-      "index2": 43,
+      "index": 45,
+      "index2": 44,
       "size": 10399,
       "cacheable": true,
       "built": false,
@@ -6053,8 +6296,8 @@
       "id": "./node_modules/style-loader/lib/urls.js",
       "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\style-loader\\lib\\urls.js",
       "name": "./node_modules/style-loader/lib/urls.js",
-      "index": 45,
-      "index2": 42,
+      "index": 46,
+      "index2": 43,
       "size": 3013,
       "cacheable": true,
       "built": false,
@@ -6805,10 +7048,10 @@
       "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
       "name": "./src/scripts/components/App.jsx",
       "index": 39,
-      "index2": 37,
-      "size": 135,
+      "index2": 38,
+      "size": 2126,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6837,7 +7080,7 @@
           "moduleName": "./src/scripts/index.js",
           "type": "harmony side effect evaluation",
           "userRequest": "./components/App",
-          "loc": "3:0-35"
+          "loc": "3:0-39"
         },
         {
           "moduleId": "./src/scripts/index.js",
@@ -6850,22 +7093,85 @@
         }
       ],
       "providedExports": [
-        "default"
+        "fetchDataFromApi",
+        "App"
       ],
       "optimizationBailout": [
       ],
       "depth": 2,
-      "source": "import React from 'react';\n\nvar App = function App() {\n  return React.createElement(\"h1\", null, \"Hello World\");\n};\n\nexport default App;"
+      "source": "function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n/* eslint-disable no-mixed-spaces-and-tabs */\nimport React, { useState, useEffect } from 'react';\nimport Header from './Header';\nvar api_key = '88a0f517b9c8cbdb65627750ba696fd8';\nvar trendingMoviesUrl = \"https://api.themoviedb.org/3/trending/all/day?api_key=\".concat(api_key);\nexport var fetchDataFromApi = function fetchDataFromApi(url, setMoviesArr, setLoading) {\n  fetch(url).then(function (response) {\n    return response.json();\n  }).then(function (jsonResponse) {\n    setMoviesArr(jsonResponse.results);\n    setLoading(false);\n  });\n};\nexport var App = function App() {\n  var _useState = useState(true),\n      _useState2 = _slicedToArray(_useState, 2),\n      loading = _useState2[0],\n      setLoading = _useState2[1];\n\n  var _useState3 = useState([]),\n      _useState4 = _slicedToArray(_useState3, 2),\n      moviesArr = _useState4[0],\n      setMoviesArr = _useState4[1];\n\n  useEffect(function () {\n    fetchDataFromApi(trendingMoviesUrl, setMoviesArr, setLoading);\n  }, []);\n  return React.createElement(React.Fragment, null, React.createElement(Header, {\n    text: \"Movies SA\",\n    user: 'Jean Rauwers'\n  }), React.createElement(\"div\", {\n    className: \"search-title\"\n  }, \"Please search for your favorite movie!\"), React.createElement(\"div\", {\n    className: \"movies-grid\"\n  }), moviesArr ? moviesArr.map(function (movie) {\n    // eslint-disable-next-line no-console\n    console.log(movie);\n  }) : '');\n};"
+    },
+    {
+      "id": "./src/scripts/components/Header.jsx",
+      "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\Header.jsx",
+      "name": "./src/scripts/components/Header.jsx",
+      "index": 40,
+      "index2": 37,
+      "size": 208,
+      "cacheable": true,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+      "issuerId": "./src/scripts/components/App.jsx",
+      "issuerName": "./src/scripts/components/App.jsx",
+      "issuerPath": [
+        {
+          "id": "./src/scripts/index.js",
+          "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\index.js",
+          "name": "./src/scripts/index.js"
+        },
+        {
+          "id": "./src/scripts/components/App.jsx",
+          "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "name": "./src/scripts/components/App.jsx"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": "./src/scripts/components/App.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "module": "./src/scripts/components/App.jsx",
+          "moduleName": "./src/scripts/components/App.jsx",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./Header",
+          "loc": "11:0-30"
+        },
+        {
+          "moduleId": "./src/scripts/components/App.jsx",
+          "moduleIdentifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\components\\App.jsx",
+          "module": "./src/scripts/components/App.jsx",
+          "moduleName": "./src/scripts/components/App.jsx",
+          "type": "harmony import specifier",
+          "userRequest": "./Header",
+          "loc": "36:71-77"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 3,
+      "source": "import React from 'react';\n\nvar Header = function Header(props) {\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h2\", null, props.text));\n};\n\nexport default Header;"
     },
     {
       "id": "./src/scripts/index.js",
       "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\babel-loader\\lib\\index.js!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\index.js",
       "name": "./src/scripts/index.js",
       "index": 27,
-      "index2": 38,
-      "size": 178,
+      "index2": 39,
+      "size": 182,
       "cacheable": true,
-      "built": false,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -6905,14 +7211,14 @@
       "optimizationBailout": [
       ],
       "depth": 1,
-      "source": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport App from './components/App';\nReactDOM.render(React.createElement(App, null), document.getElementById('main'));"
+      "source": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport { App } from './components/App';\nReactDOM.render(React.createElement(App, null), document.getElementById('main'));"
     },
     {
       "id": "./src/scripts/scss/index.scss",
       "identifier": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\style-loader\\index.js??ref--4-0!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\css-loader\\dist\\cjs.js??ref--4-1!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\postcss-loader\\src\\index.js??ref--4-2!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\node_modules\\sass-loader\\lib\\loader.js??ref--4-3!C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\src\\scripts\\scss\\index.scss",
       "name": "./src/scripts/scss/index.scss",
-      "index": 41,
-      "index2": 44,
+      "index": 42,
+      "index2": 45,
       "size": 1509,
       "cacheable": true,
       "built": false,

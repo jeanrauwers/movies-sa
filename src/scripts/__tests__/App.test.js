@@ -1,12 +1,12 @@
 import React from 'react';
-import { shallow, mount, render } from 'enzyme';
-import App from '../components/App';
+import { shallow } from 'enzyme';
+import { App } from '../components/App';
 
-describe('Can I render App component?', () => {
-	test('should render without throwing an error', () => {
+describe('Testing App component', () => {
+	test('should have class search-title', () => {
 		expect(
 			shallow(<App />)
-				.find('h1')
+				.find('div.search-title')
 				.exists()
 		).toBe(true);
 	});
