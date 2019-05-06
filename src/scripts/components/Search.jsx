@@ -16,7 +16,8 @@ const Search = ({ search }) => {
 			messageValidator();
 			return;
 		}
-		search(searchValue);
+
+		search(searchValue.toString());
 		resetInputField();
 	};
 

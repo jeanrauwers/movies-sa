@@ -13,3 +13,10 @@ body {
 	grid-gap: 30px;
 	grid-column-gap:10px;
   }
+
+.load-spinner{
+	display:flex;
+	justify-content: space-evenly;
+	grid-column: 2;
+
+}

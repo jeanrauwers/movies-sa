@@ -3,9 +3,20 @@ import Header from './Header';
 import Movie from './Movie';
 import Search from './Search';
 import ModalComponent from './Modal';
+import API_CONFIGS from '../configs';
+import { Spinner } from 'reactstrap';
 
-const api_key = '88a0f517b9c8cbdb65627750ba696fd8';
-const trendingMoviesUrl = `https://api.themoviedb.org/3/trending/all/day?api_key=${api_key}`;
+const dataFetcherHandler = (url, setMoviesArr, setLoading, setErrorMessage) => {
+	fetch(url)
+		.then(response => response.json())
+		.then(jsonResponse => {
+			setMoviesArr(jsonResponse.results);
+			setLoading(false);
+		})
+		.catch(err => {
+			setErrorMessage(err);
+		});
+};
 
 const App = () => {
 	const [loading, setLoading] = useState(true);
@@ -14,24 +25,29 @@ const App = () => {
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 	const [modalMovie, setModalMovie] = useState();
 
+	const trendingMoviesUrl = `https://api.themoviedb.org/3/trending/all/day?api_key=${
+		API_CONFIGS.API_KEY
+	}`;
+
 	useEffect(() => {
-		fetch(trendingMoviesUrl)
-			.then(response => response.json())
-			.then(jsonResponse => {
-				setMoviesArr(jsonResponse.results);
-				setLoading(false);
-			});
+		dataFetcherHandler(
+			trendingMoviesUrl,
+			setMoviesArr,
+			setLoading,
+			setErrorMessage
+		);
 	}, []);
 	const search = searchValue => {
-		const searchMoviesUrl = `https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query=${searchValue}`;
+		const searchMoviesUrl = `https://api.themoviedb.org/3/search/movie?api_key=${
+			API_CONFIGS.API_KEY
+		}&query=${searchValue}`;
 		setLoading(true);
-		setErrorMessage(null);
-		fetch(searchMoviesUrl)
-			.then(response => response.json())
-			.then(jsonResponse => {
-				setMoviesArr(jsonResponse.results);
-				setLoading(false);
-			});
+		dataFetcherHandler(
+			searchMoviesUrl,
+			setMoviesArr,
+			setLoading,
+			setErrorMessage
+		);
 	};
 
 	return (
@@ -41,9 +57,12 @@ const App = () => {
 			<div className="search-title">Please search for your favorite movie!</div>
 			<div className="movies-grid">
 				{loading && !errorMessage ? (
-					<span>loading...</span>
+					<div className="load-spinner">
+						{' '}
+						Loading .... <Spinner color="primary" />
+					</div>
 				) : errorMessage ? (
-					<div className="errorMessage">{errorMessage}</div>
+					<div className="load-spinner errorMessage">{errorMessage}</div>
 				) : (
 					moviesArr.map((movie, index) => (
 						<Movie
