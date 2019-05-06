@@ -24,7 +24,7 @@ export const App = () => {
 
 	return (
 		<>
-			<Header text="Movies SA" user={'Jean Rauwers'} />
+			<Header title={"Movie SA"} user={'Jean Rauwers'} />
 			<div className="search-title">Please search for your favorite movie!</div>
 			<div className="movies-grid" />
 			{moviesArr

@@ -4,58 +4,35 @@
   "warnings": [
   ],
   "version": "4.30.0",
-  "hash": "447100596e6f69fac872",
-  "time": 47,
-  "builtAt": 1557108624728,
+  "hash": "cf56e99ae8e9b7897453",
+  "time": 58,
+  "builtAt": 1557142034421,
   "publicPath": "",
   "outputPath": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\dist",
   "assetsByChunkName": {
-    "main": [
-      "main.js",
-      "main.2c5df26f2e55a3a60ae3.hot-update.js"
-    ],
+    "main": "main.js",
     "style": "style.js"
   },
   "assets": [
     {
       "name": "./index.html",
-      "size": 396,
+      "size": 312,
       "chunks": [
       ],
       "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "2c5df26f2e55a3a60ae3.hot-update.json",
-      "size": 46,
-      "chunks": [
-      ],
-      "chunkNames": [
-      ],
-      "emitted": true
-    },
-    {
-      "name": "main.2c5df26f2e55a3a60ae3.hot-update.js",
-      "size": 2114,
-      "chunks": [
-        "main"
-      ],
-      "chunkNames": [
-        "main"
       ],
       "emitted": true
     },
     {
       "name": "main.js",
-      "size": 3242900,
+      "size": 3242990,
       "chunks": [
         "main"
       ],
       "chunkNames": [
         "main"
       ],
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "style.js",
@@ -66,7 +43,7 @@
       "chunkNames": [
         "style"
       ],
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -76,8 +53,7 @@
         "main"
       ],
       "assets": [
-        "main.js",
-        "main.2c5df26f2e55a3a60ae3.hot-update.js"
+        "main.js"
       ],
       "children": {
       },
@@ -103,8 +79,7 @@
         "main"
       ],
       "assets": [
-        "main.js",
-        "main.2c5df26f2e55a3a60ae3.hot-update.js"
+        "main.js"
       ],
       "children": {
       },
@@ -127,18 +102,17 @@
   "chunks": [
     {
       "id": "main",
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
-      "size": 1227153,
+      "size": 1227186,
       "names": [
         "main"
       ],
       "files": [
-        "main.js",
-        "main.2c5df26f2e55a3a60ae3.hot-update.js"
+        "main.js"
       ],
-      "hash": "668708c77dc4b31e9119",
+      "hash": "309df68ed0b93b3a8f64",
       "siblings": [
       ],
       "parents": [
@@ -1375,7 +1349,7 @@
               "moduleName": "./src/scripts/components/Header.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "4:9-14"
+              "loc": "5:9-14"
             },
             {
               "moduleId": "./src/scripts/components/Header.jsx",
@@ -1384,7 +1358,7 @@
               "moduleName": "./src/scripts/components/Header.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "6:5-10"
+              "loc": "7:5-10"
             },
             {
               "moduleId": "./src/scripts/index.js",
@@ -2510,7 +2484,7 @@
           "optimizationBailout": [
           ],
           "depth": 2,
-          "source": "function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n/* eslint-disable no-mixed-spaces-and-tabs */\nimport React, { useState, useEffect } from 'react';\nimport Header from './Header';\nvar api_key = '88a0f517b9c8cbdb65627750ba696fd8';\nvar trendingMoviesUrl = \"https://api.themoviedb.org/3/trending/all/day?api_key=\".concat(api_key);\nexport var fetchDataFromApi = function fetchDataFromApi(url, setMoviesArr, setLoading) {\n  fetch(url).then(function (response) {\n    return response.json();\n  }).then(function (jsonResponse) {\n    setMoviesArr(jsonResponse.results);\n    setLoading(false);\n  });\n};\nexport var App = function App() {\n  var _useState = useState(true),\n      _useState2 = _slicedToArray(_useState, 2),\n      loading = _useState2[0],\n      setLoading = _useState2[1];\n\n  var _useState3 = useState([]),\n      _useState4 = _slicedToArray(_useState3, 2),\n      moviesArr = _useState4[0],\n      setMoviesArr = _useState4[1];\n\n  useEffect(function () {\n    fetchDataFromApi(trendingMoviesUrl, setMoviesArr, setLoading);\n  }, []);\n  return React.createElement(React.Fragment, null, React.createElement(Header, {\n    text: \"Movies SA\",\n    user: 'Jean Rauwers'\n  }), React.createElement(\"div\", {\n    className: \"search-title\"\n  }, \"Please search for your favorite movie!\"), React.createElement(\"div\", {\n    className: \"movies-grid\"\n  }), moviesArr ? moviesArr.map(function (movie) {\n    // eslint-disable-next-line no-console\n    console.log(movie);\n  }) : '');\n};"
+          "source": "function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n/* eslint-disable no-mixed-spaces-and-tabs */\nimport React, { useState, useEffect } from 'react';\nimport Header from './Header';\nvar api_key = '88a0f517b9c8cbdb65627750ba696fd8';\nvar trendingMoviesUrl = \"https://api.themoviedb.org/3/trending/all/day?api_key=\".concat(api_key);\nexport var fetchDataFromApi = function fetchDataFromApi(url, setMoviesArr, setLoading) {\n  fetch(url).then(function (response) {\n    return response.json();\n  }).then(function (jsonResponse) {\n    setMoviesArr(jsonResponse.results);\n    setLoading(false);\n  });\n};\nexport var App = function App() {\n  var _useState = useState(true),\n      _useState2 = _slicedToArray(_useState, 2),\n      loading = _useState2[0],\n      setLoading = _useState2[1];\n\n  var _useState3 = useState([]),\n      _useState4 = _slicedToArray(_useState3, 2),\n      moviesArr = _useState4[0],\n      setMoviesArr = _useState4[1];\n\n  useEffect(function () {\n    fetchDataFromApi(trendingMoviesUrl, setMoviesArr, setLoading);\n  }, []);\n  return React.createElement(React.Fragment, null, React.createElement(Header, {\n    title: \"Movie SA\",\n    user: 'Jean Rauwers'\n  }), React.createElement(\"div\", {\n    className: \"search-title\"\n  }, \"Please search for your favorite movie!\"), React.createElement(\"div\", {\n    className: \"movies-grid\"\n  }), moviesArr ? moviesArr.map(function (movie) {\n    // eslint-disable-next-line no-console\n    console.log(movie);\n  }) : '');\n};"
         },
         {
           "id": "./src/scripts/components/Header.jsx",
@@ -2518,9 +2492,9 @@
           "name": "./src/scripts/components/Header.jsx",
           "index": 40,
           "index2": 37,
-          "size": 208,
+          "size": 241,
           "cacheable": true,
-          "built": false,
+          "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -2572,7 +2546,7 @@
           "optimizationBailout": [
           ],
           "depth": 3,
-          "source": "import React from 'react';\n\nvar Header = function Header(props) {\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h2\", null, props.text));\n};\n\nexport default Header;"
+          "source": "import React from 'react';\n\nvar Header = function Header(_ref) {\n  var title = _ref.title;\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h2\", null, title ? title : ''));\n};\n\nexport default Header;"
         },
         {
           "id": "./src/scripts/index.js",
@@ -2582,7 +2556,7 @@
           "index2": 39,
           "size": 182,
           "cacheable": true,
-          "built": true,
+          "built": false,
           "optional": false,
           "prefetched": false,
           "chunks": [
@@ -2640,7 +2614,7 @@
     },
     {
       "id": "style",
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
       "size": 350300,
@@ -5867,7 +5841,7 @@
           "moduleName": "./src/scripts/components/Header.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "4:9-14"
+          "loc": "5:9-14"
         },
         {
           "moduleId": "./src/scripts/components/Header.jsx",
@@ -5876,7 +5850,7 @@
           "moduleName": "./src/scripts/components/Header.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "6:5-10"
+          "loc": "7:5-10"
         },
         {
           "moduleId": "./src/scripts/index.js",
@@ -7099,7 +7073,7 @@
       "optimizationBailout": [
       ],
       "depth": 2,
-      "source": "function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n/* eslint-disable no-mixed-spaces-and-tabs */\nimport React, { useState, useEffect } from 'react';\nimport Header from './Header';\nvar api_key = '88a0f517b9c8cbdb65627750ba696fd8';\nvar trendingMoviesUrl = \"https://api.themoviedb.org/3/trending/all/day?api_key=\".concat(api_key);\nexport var fetchDataFromApi = function fetchDataFromApi(url, setMoviesArr, setLoading) {\n  fetch(url).then(function (response) {\n    return response.json();\n  }).then(function (jsonResponse) {\n    setMoviesArr(jsonResponse.results);\n    setLoading(false);\n  });\n};\nexport var App = function App() {\n  var _useState = useState(true),\n      _useState2 = _slicedToArray(_useState, 2),\n      loading = _useState2[0],\n      setLoading = _useState2[1];\n\n  var _useState3 = useState([]),\n      _useState4 = _slicedToArray(_useState3, 2),\n      moviesArr = _useState4[0],\n      setMoviesArr = _useState4[1];\n\n  useEffect(function () {\n    fetchDataFromApi(trendingMoviesUrl, setMoviesArr, setLoading);\n  }, []);\n  return React.createElement(React.Fragment, null, React.createElement(Header, {\n    text: \"Movies SA\",\n    user: 'Jean Rauwers'\n  }), React.createElement(\"div\", {\n    className: \"search-title\"\n  }, \"Please search for your favorite movie!\"), React.createElement(\"div\", {\n    className: \"movies-grid\"\n  }), moviesArr ? moviesArr.map(function (movie) {\n    // eslint-disable-next-line no-console\n    console.log(movie);\n  }) : '');\n};"
+      "source": "function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance\"); }\n\nfunction _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n/* eslint-disable no-mixed-spaces-and-tabs */\nimport React, { useState, useEffect } from 'react';\nimport Header from './Header';\nvar api_key = '88a0f517b9c8cbdb65627750ba696fd8';\nvar trendingMoviesUrl = \"https://api.themoviedb.org/3/trending/all/day?api_key=\".concat(api_key);\nexport var fetchDataFromApi = function fetchDataFromApi(url, setMoviesArr, setLoading) {\n  fetch(url).then(function (response) {\n    return response.json();\n  }).then(function (jsonResponse) {\n    setMoviesArr(jsonResponse.results);\n    setLoading(false);\n  });\n};\nexport var App = function App() {\n  var _useState = useState(true),\n      _useState2 = _slicedToArray(_useState, 2),\n      loading = _useState2[0],\n      setLoading = _useState2[1];\n\n  var _useState3 = useState([]),\n      _useState4 = _slicedToArray(_useState3, 2),\n      moviesArr = _useState4[0],\n      setMoviesArr = _useState4[1];\n\n  useEffect(function () {\n    fetchDataFromApi(trendingMoviesUrl, setMoviesArr, setLoading);\n  }, []);\n  return React.createElement(React.Fragment, null, React.createElement(Header, {\n    title: \"Movie SA\",\n    user: 'Jean Rauwers'\n  }), React.createElement(\"div\", {\n    className: \"search-title\"\n  }, \"Please search for your favorite movie!\"), React.createElement(\"div\", {\n    className: \"movies-grid\"\n  }), moviesArr ? moviesArr.map(function (movie) {\n    // eslint-disable-next-line no-console\n    console.log(movie);\n  }) : '');\n};"
     },
     {
       "id": "./src/scripts/components/Header.jsx",
@@ -7107,9 +7081,9 @@
       "name": "./src/scripts/components/Header.jsx",
       "index": 40,
       "index2": 37,
-      "size": 208,
+      "size": 241,
       "cacheable": true,
-      "built": false,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
@@ -7161,7 +7135,7 @@
       "optimizationBailout": [
       ],
       "depth": 3,
-      "source": "import React from 'react';\n\nvar Header = function Header(props) {\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h2\", null, props.text));\n};\n\nexport default Header;"
+      "source": "import React from 'react';\n\nvar Header = function Header(_ref) {\n  var title = _ref.title;\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h2\", null, title ? title : ''));\n};\n\nexport default Header;"
     },
     {
       "id": "./src/scripts/index.js",
@@ -7171,7 +7145,7 @@
       "index2": 39,
       "size": 182,
       "cacheable": true,
-      "built": true,
+      "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
