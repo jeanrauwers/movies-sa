@@ -21,7 +21,7 @@ const ModalComponent = ({ movie, modal, setModalIsOpen }) => {
 				<ModalBody>
 					<h3>Average Rating : {avRating}</h3>
 					<MovieImage movie={movie} width={'100%'} />
-					Synopsis:{movieOverview}
+					<div data-automation="synopsis">Synopsis:{movieOverview}</div>
 				</ModalBody>
 				<ModalFooter>
 					<Button color="primary" onClick={isOpenToggle}>
