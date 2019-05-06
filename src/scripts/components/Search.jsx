@@ -33,6 +33,11 @@ const Search = ({ search }) => {
 				<Input value={searchValue} onChange={inputValueHandler} type="text" />
 				<Input onClick={searchQueryHandler} type="submit" value="SEARCH" />
 			</Form>
+			{inputIsValid ? (
+				''
+			) : (
+				<span className="error-message">Please type before search</span>
+			)}
 		</>
 	);
 };

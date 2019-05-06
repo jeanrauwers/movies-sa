@@ -14,9 +14,16 @@ body {
 	grid-column-gap:10px;
   }
 
-.load-spinner{
+.load-spinner {
 	display:flex;
 	justify-content: space-evenly;
 	grid-column: 2;
 
+}
+
+
+.error-message {
+	display:flex;
+	justify-content: center;
+	color: red;
 }

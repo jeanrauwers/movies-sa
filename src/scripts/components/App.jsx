@@ -62,7 +62,7 @@ const App = () => {
 						Loading .... <Spinner color="primary" />
 					</div>
 				) : errorMessage ? (
-					<div className="load-spinner errorMessage">{errorMessage}</div>
+					<div className="load-spinner error-message">{errorMessage}</div>
 				) : (
 					moviesArr.map((movie, index) => (
 						<Movie
