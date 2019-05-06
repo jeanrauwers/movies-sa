@@ -75,7 +75,7 @@ const App = () => {
 					))
 				) : (
 					<div className="search-no-result">
-						{`Sorry, we couldn't find any results for '${searchValueError}'!`}{' '}
+						{`Sorry, we couldn't find any results for '${searchValueError}'!`}
 					</div>
 				)}
 			</div>
