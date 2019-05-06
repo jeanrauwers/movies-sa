@@ -1,0 +1,24 @@
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace =  true
+insert_final_newline = true
+
+[{*.json,.eslintrc,.styleintrc,.babelrc,.prettierrc, *.yml}]
+quote_type = double
+indent_style = space
+indent_size = 2
+
+[*.{js,jsx,ts,css,scss,html}]
+indent_style = tab
+indent_size = tab
+quote_type = single
+curly_bracket_next_line = false
+spaces_around_operators = true
+spaces_around_brackets = none
+indent_brace_style = K&R
+continuation_indent_size = 1
