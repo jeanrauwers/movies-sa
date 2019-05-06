@@ -57,13 +57,12 @@ const App = () => {
 			<div className="movies-grid">
 				{loading && !errorMessage ? (
 					<div className="load-spinner">
-						{' '}
 						Loading .... <Spinner color="primary" />
 					</div>
 				) : errorMessage ? (
 					<div className="load-spinner error-message">{errorMessage}</div>
-				) : (
-					moviesArr && Array.isArray(moviesArr) ? moviesArr.map((movie, index) => (
+				) : moviesArr && Array.isArray(moviesArr) ? (
+					moviesArr.map((movie, index) => (
 						<Movie
 							key={`${index}-${movie.title}`}
 							movie={movie}
@@ -71,7 +70,9 @@ const App = () => {
 							setModalIsOpen={setModalIsOpen}
 							modal={modalIsOpen}
 						/>
-					)) : ""
+					))
+				) : (
+					''
 				)}
 			</div>
 
