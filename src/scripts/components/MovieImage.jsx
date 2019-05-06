@@ -15,7 +15,7 @@ const MovieImage = ({ movie, width }) => {
 	return (
 		<img
 			width={width}
-			alt={`The movie titled: ${movieTitle}`}
+			alt={`The movie title: ${movieTitle}`}
 			src={moviePostImage}
 			style={imageStyle}
 		/>
