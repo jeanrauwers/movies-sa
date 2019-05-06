@@ -3,7 +3,7 @@ import React from 'react';
 const Header = ({ title }) => {
 	return (
 		<header className="header">
-			<h2>{title ? title : ''}</h2>
+			<h1>{title ? title : ''}</h1>
 		</header>
 	);
 };

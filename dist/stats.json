@@ -4,22 +4,45 @@
   "warnings": [
   ],
   "version": "4.30.0",
-  "hash": "cf56e99ae8e9b7897453",
-  "time": 58,
-  "builtAt": 1557142034421,
+  "hash": "5654f4c27fe31488b5ca",
+  "time": 56,
+  "builtAt": 1557142955329,
   "publicPath": "",
   "outputPath": "C:\\Users\\rauwej\\Desktop\\movie-test\\movies-sa\\dist",
   "assetsByChunkName": {
-    "main": "main.js",
+    "main": [
+      "main.js",
+      "main.db82eec440c554356257.hot-update.js"
+    ],
     "style": "style.js"
   },
   "assets": [
     {
       "name": "./index.html",
-      "size": 312,
+      "size": 396,
       "chunks": [
       ],
       "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "db82eec440c554356257.hot-update.json",
+      "size": 46,
+      "chunks": [
+      ],
+      "chunkNames": [
+      ],
+      "emitted": true
+    },
+    {
+      "name": "main.db82eec440c554356257.hot-update.js",
+      "size": 1989,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
       ],
       "emitted": true
     },
@@ -32,7 +55,7 @@
       "chunkNames": [
         "main"
       ],
-      "emitted": false
+      "emitted": true
     },
     {
       "name": "style.js",
@@ -43,7 +66,7 @@
       "chunkNames": [
         "style"
       ],
-      "emitted": false
+      "emitted": true
     }
   ],
   "filteredAssets": 0,
@@ -53,7 +76,8 @@
         "main"
       ],
       "assets": [
-        "main.js"
+        "main.js",
+        "main.db82eec440c554356257.hot-update.js"
       ],
       "children": {
       },
@@ -79,7 +103,8 @@
         "main"
       ],
       "assets": [
-        "main.js"
+        "main.js",
+        "main.db82eec440c554356257.hot-update.js"
       ],
       "children": {
       },
@@ -102,7 +127,7 @@
   "chunks": [
     {
       "id": "main",
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": true,
       "size": 1227186,
@@ -110,9 +135,10 @@
         "main"
       ],
       "files": [
-        "main.js"
+        "main.js",
+        "main.db82eec440c554356257.hot-update.js"
       ],
-      "hash": "309df68ed0b93b3a8f64",
+      "hash": "b19c357c0745009e7958",
       "siblings": [
       ],
       "parents": [
@@ -2546,7 +2572,7 @@
           "optimizationBailout": [
           ],
           "depth": 3,
-          "source": "import React from 'react';\n\nvar Header = function Header(_ref) {\n  var title = _ref.title;\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h2\", null, title ? title : ''));\n};\n\nexport default Header;"
+          "source": "import React from 'react';\n\nvar Header = function Header(_ref) {\n  var title = _ref.title;\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h1\", null, title ? title : ''));\n};\n\nexport default Header;"
         },
         {
           "id": "./src/scripts/index.js",
@@ -2614,7 +2640,7 @@
     },
     {
       "id": "style",
-      "rendered": false,
+      "rendered": true,
       "initial": true,
       "entry": true,
       "size": 350300,
@@ -7135,7 +7161,7 @@
       "optimizationBailout": [
       ],
       "depth": 3,
-      "source": "import React from 'react';\n\nvar Header = function Header(_ref) {\n  var title = _ref.title;\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h2\", null, title ? title : ''));\n};\n\nexport default Header;"
+      "source": "import React from 'react';\n\nvar Header = function Header(_ref) {\n  var title = _ref.title;\n  return React.createElement(\"header\", {\n    className: \"header\"\n  }, React.createElement(\"h1\", null, title ? title : ''));\n};\n\nexport default Header;"
     },
     {
       "id": "./src/scripts/index.js",
