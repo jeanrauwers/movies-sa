@@ -22,7 +22,7 @@ const Movie = ({ movie, modal, setModalIsOpen, setModalMovie }) => {
 					<MovieImage movie={movie} width="100%" />
 				</div>
 				<MovieTitle movie={movie} />
-				<p>({movieReleaseDate})</p>
+				<p>({isNaN(movieReleaseDate) ? 'No Date' : movieReleaseDate})</p>
 			</div>
 		</>
 	);
