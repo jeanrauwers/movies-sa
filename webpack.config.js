@@ -5,16 +5,11 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
 	.BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = function(env, argv) {
+module.exports = function (env, argv) {
 	const isDevMode = argv.mode !== 'production';
 	const plugins = [new CleanWebpackPlugin()];
 
-	// plugins.push(
-	// 	new BundleAnalyzerPlugin({
-	// 		generateStatsFile: true,
-	// 		analyzerMode: argv.analyze ? 'server' : 'disabled'
-	// 	})
-	// );
+
 
 	plugins.push(
 		new HtmlWebpackPlugin({
@@ -60,9 +55,9 @@ module.exports = function(env, argv) {
 						isDevMode
 							? { loader: 'style-loader', options: { sourceMap: true } }
 							: {
-									loader: MiniCssExtractPlugin.loader,
-									options: { sourceMap: true }
-							  },
+								loader: MiniCssExtractPlugin.loader,
+								options: { sourceMap: true }
+							},
 						{
 							loader: 'css-loader',
 							options: {
