@@ -9,17 +9,17 @@ module.exports = function(env, argv) {
 	const isDevMode = argv.mode !== 'production';
 	const plugins = [new CleanWebpackPlugin()];
 
-	plugins.push(
-		new BundleAnalyzerPlugin({
-			generateStatsFile: true,
-			analyzerMode: argv.analyze ? 'server' : 'disabled'
-		})
-	);
+	// plugins.push(
+	// 	new BundleAnalyzerPlugin({
+	// 		generateStatsFile: true,
+	// 		analyzerMode: argv.analyze ? 'server' : 'disabled'
+	// 	})
+	// );
 
 	plugins.push(
 		new HtmlWebpackPlugin({
 			filename: './index.html',
-			tite: 'My App',
+			tite: 'Movie SA',
 			hash: true,
 			template: './src/template/index.html'
 		})
