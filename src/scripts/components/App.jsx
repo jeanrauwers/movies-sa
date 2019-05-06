@@ -28,7 +28,6 @@ const App = () => {
 	const trendingMoviesUrl = `https://api.themoviedb.org/3/trending/all/day?api_key=${
 		API_CONFIGS.API_KEY
 	}`;
-
 	useEffect(() => {
 		dataFetcherHandler(
 			trendingMoviesUrl,
@@ -52,7 +51,7 @@ const App = () => {
 
 	return (
 		<>
-			<Header title="Movies SA" user={'Jean Rauwers'} />
+			<Header title="Movies SA" />
 			<Search search={search} />
 			<div className="search-title">Please search for your favorite movie!</div>
 			<div className="movies-grid">
@@ -64,7 +63,7 @@ const App = () => {
 				) : errorMessage ? (
 					<div className="load-spinner error-message">{errorMessage}</div>
 				) : (
-					moviesArr.map((movie, index) => (
+					moviesArr && Array.isArray(moviesArr) ? moviesArr.map((movie, index) => (
 						<Movie
 							key={`${index}-${movie.title}`}
 							movie={movie}
@@ -72,7 +71,7 @@ const App = () => {
 							setModalIsOpen={setModalIsOpen}
 							modal={modalIsOpen}
 						/>
-					))
+					)) : ""
 				)}
 			</div>
 
