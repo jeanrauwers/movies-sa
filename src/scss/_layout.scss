@@ -21,6 +21,13 @@ body {
 
 }
 
+.search-no-result{
+	display:flex;
+	justify-content: center;
+	grid-column: 2/4;
+	color:red;
+}
+
 
 .error-message {
 	display:flex;

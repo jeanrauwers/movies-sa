@@ -24,6 +24,7 @@ const App = () => {
 	const [errorMessage, setErrorMessage] = useState(null);
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 	const [modalMovie, setModalMovie] = useState();
+	const [searchValueError, setSearchValueError] = useState();
 
 	const trendingMoviesUrl = `https://api.themoviedb.org/3/trending/all/day?api_key=${
 		API_CONFIGS.API_KEY
@@ -41,6 +42,7 @@ const App = () => {
 			API_CONFIGS.API_KEY
 		}&query=${searchValue}`;
 		setLoading(true);
+		setSearchValueError(searchValue);
 		dataFetcherHandler(
 			searchMoviesUrl,
 			setMoviesArr,
@@ -61,7 +63,7 @@ const App = () => {
 					</div>
 				) : errorMessage ? (
 					<div className="load-spinner error-message">{errorMessage}</div>
-				) : moviesArr && Array.isArray(moviesArr) ? (
+				) : moviesArr && Array.isArray(moviesArr) && moviesArr.length > 1 ? (
 					moviesArr.map((movie, index) => (
 						<Movie
 							key={`${index}-${movie.title}`}
@@ -72,7 +74,9 @@ const App = () => {
 						/>
 					))
 				) : (
-					''
+					<div className="search-no-result">
+						{`Sorry, we couldn't find any results for '${searchValueError}'!`}{' '}
+					</div>
 				)}
 			</div>
 
