@@ -3,7 +3,7 @@ import Header from './Header';
 import Movie from './Movie';
 import Search from './Search';
 import ModalComponent from './Modal';
-import API_CONFIGS from '../configs';
+import API_CONFIGS from '../api-config';
 import { Spinner } from 'reactstrap';
 
 const dataFetcherHandler = (url, setMoviesArr, setLoading, setErrorMessage) => {

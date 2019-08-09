@@ -1,6 +1,7 @@
 import Modal from '../components/Modal';
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount, render } from 'enzyme';
+
 
 describe('Testing Modal component', () => {
 	const movieObj = {

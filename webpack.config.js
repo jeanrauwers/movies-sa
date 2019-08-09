@@ -1,15 +1,11 @@
 const path = require('path');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
-	.BundleAnalyzerPlugin;
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = function (env, argv) {
+module.exports = function(env, argv) {
 	const isDevMode = argv.mode !== 'production';
 	const plugins = [new CleanWebpackPlugin()];
-
-
 
 	plugins.push(
 		new HtmlWebpackPlugin({
@@ -30,8 +26,7 @@ module.exports = function (env, argv) {
 
 	return {
 		entry: {
-			main: './src/scripts/index.js',
-			style: './src/scss/index.scss'
+			main: './src/scripts/index.js'
 		},
 		resolve: {
 			extensions: ['.js', '.jsx', '.json', '.css', '.scss']
@@ -55,14 +50,13 @@ module.exports = function (env, argv) {
 						isDevMode
 							? { loader: 'style-loader', options: { sourceMap: true } }
 							: {
-								loader: MiniCssExtractPlugin.loader,
-								options: { sourceMap: true }
-							},
+									loader: MiniCssExtractPlugin.loader,
+									options: { sourceMap: true }
+							  },
 						{
 							loader: 'css-loader',
 							options: {
-								sourceMap: true,
-								localIdentName: '[name]__[local]___[hash:base64:5]'
+								sourceMap: true
 							}
 						},
 						{ loader: 'postcss-loader', options: { sourceMap: true } },

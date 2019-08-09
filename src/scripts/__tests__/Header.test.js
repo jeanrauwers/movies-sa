@@ -1,6 +1,6 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import Header from '../components/Header';
+import { shallow, mount, render } from 'enzyme';
 
 describe('Testing Header component', () => {
 	const header = shallow(<Header title={'test'} />);

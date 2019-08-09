@@ -1,6 +1,6 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import App from '../components/App';
+import { shallow  } from 'enzyme';
 
 describe('Testing App component', () => {
 	const appComponent = shallow(<App />);

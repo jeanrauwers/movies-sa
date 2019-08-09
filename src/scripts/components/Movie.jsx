@@ -2,8 +2,6 @@ import React from 'react';
 import MovieImage from './MovieImage';
 import MovieTitle from './MovieTitle';
 
-const noImageAvailablePlaceHolder =
-	'https://bsa247.com/admin/default_images/no_image.png';
 const Movie = ({ movie, modal, setModalIsOpen, setModalMovie }) => {
 	const onClickHandler = () => {
 		modal ? setModalIsOpen(false) : setModalIsOpen(true);

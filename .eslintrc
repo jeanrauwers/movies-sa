@@ -1,5 +1,9 @@
 {
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "eslint-config-airbnb"
+  ],
 
   "parserOptions": {
     "sourceType": "module"
@@ -13,5 +17,10 @@
 
   "rules": {
     "keyword-spacing": 2
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // React version. "detect" automatically picks the version you have installed.
+    }
   }
 }
