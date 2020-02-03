@@ -8,8 +8,8 @@ describe('Testing Movie component', () => {
     backdrop_path: 'test',
     release_date: new Date('12/10/1985'),
   };
-  const moviecomponent = shallow(<Movie movie={movieObj} />);
+  const movieComponent = shallow(<Movie movie={movieObj} />);
   test('should have text value of movieObjt.release_date', () => {
-    expect(moviecomponent.find('p').text()).toEqual('(1985)');
+    expect(movieComponent.find('p').text()).toEqual('(1985)');
   });
 });
