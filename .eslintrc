@@ -4,17 +4,14 @@
     "plugin:react/recommended",
     "eslint-config-airbnb"
   ],
-
   "parserOptions": {
     "sourceType": "module"
   },
-
   "env": {
     "es6": true,
     "browser": true,
     "node": true
   },
-
   "rules": {
     "keyword-spacing": 2
   },
