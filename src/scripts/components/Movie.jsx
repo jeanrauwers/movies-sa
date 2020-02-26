@@ -16,15 +16,15 @@ const Movie = ({
 
   return (
     <>
-      <div className="" onClick={onClickHandler}>
+      <div className="grid-item" onClick={onClickHandler}>
         <div>
           <MovieImage movie={movie} width="100%" />
         </div>
         <MovieTitle movie={movie} />
         <p>
-					(
+          (
           {isNaN(movieReleaseDate) ? 'No Date' : movieReleaseDate}
-					)
+          )
         </p>
       </div>
     </>

@@ -9,6 +9,6 @@ describe('Testing App component', () => {
   });
 
   test('should have class movies-grid', () => {
-    expect(appComponent.find('div.movies-grid').exists()).toBe(true);
+    expect(appComponent.find('div.grid-area').exists()).toBe(true);
   });
 });
